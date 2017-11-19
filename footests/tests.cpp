@@ -1,8 +1,11 @@
 #define CATCH_CONFIG_MAIN
 
+#include <Hello.h>
 #include "catch.h"
 
 unsigned int Factorial( unsigned int number ) {
+    Hello h;
+    h.hello();
     return number <= 1 ? number : Factorial(number-1)*number;
 }
 
