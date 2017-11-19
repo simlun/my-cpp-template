@@ -5,6 +5,7 @@
 class Hello {
 public:
     void hello();
+    int foo();
 };
 
 
