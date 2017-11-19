@@ -4,6 +4,6 @@
 int main() {
     std::cout << "Hello, app!" << std::endl;
     Hello h;
-    h.hello();
+    std::cout << h.hello() << std::endl;
     return 0;
 }

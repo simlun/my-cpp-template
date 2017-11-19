@@ -4,7 +4,7 @@
 
 class Hello {
 public:
-    void hello();
+    int hello();
     int foo();
 };
 

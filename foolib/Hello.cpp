@@ -1,8 +1,7 @@
-#include <iostream>
 #include "Hello.h"
 
-void Hello::hello() {
-    std::cout << "Hello, foo!" << std::endl;
+int Hello::hello() {
+    return 4711;
 }
 
 int Hello::foo() {
