@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.8)
+project(foo)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_subdirectory(foolib)
+add_subdirectory(fooapp)
+
+set(SOURCE_FILES main.cpp)
+add_executable(foo ${SOURCE_FILES})
